@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="app_play">PLAY</string>
+    <string name="app_credito">De</string>
+    <string name="app_opcoes">Escolher</string>
+    <string name="app_jogar">Última Jogada</string>
+    <string name="app_player">Player</string>
+    <string name="app_bot">Bot</string>
+
+
+    <string name="app_resultado">Resultado</string>
+    <string name="app_venceu">Venceu</string>
+    <string name="app_voltar">*** Voltar ***</string>
+
+
+</resources>

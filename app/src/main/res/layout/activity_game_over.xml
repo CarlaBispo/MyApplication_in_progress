@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GameOverActivity"
+    android:background="@color/bg_splash">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="1dp"/>
+
+
+
+    <TextView
+        android:id="@+id/btPlayAgain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="80dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="*** : : Game Over : : ***"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="YOUR NAME"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse" />
+
+    <EditText
+        android:id="@+id/etNome"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:selectAllOnFocus="true"
+        android:singleLine="true" />
+
+    <Button
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="casual"
+        android:text="PLAY AGAIN"
+        android:onClick="playagain"
+        android:layout_marginTop="20dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse" />
+
+    <Button
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="casual"
+        android:text="QUIT"
+        android:onClick="quit2"
+        android:id="@+id/btQuit2"
+        android:layout_marginTop="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="1dp"/>
+
+    </LinearLayout>

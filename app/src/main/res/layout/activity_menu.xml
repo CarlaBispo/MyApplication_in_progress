@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:orientation="vertical"
+    android:background="@color/bg_splash">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text=": : ---------*-------- : :"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/p_logo"
+        android:paddingTop="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btPlay"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/bg_splash"
+        android:contentDescription="play"
+        android:fontFamily="casual"
+        android:onClick="play"
+        android:text="@string/app_play"
+        android:layout_marginTop="30dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+        tools:text="PLAY" />
+
+    <Button
+
+        android:id="@+id/btScore"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="casual"
+        android:text="SCORE"
+        android:onClick="score"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse" />
+
+    <Button
+
+        android:id="@+id/btAbout"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="casual"
+        android:text="ABOUT"
+        android:onClick="about"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse" />
+
+
+    <Button
+
+        android:id="@+id/btQuit"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="casual"
+        android:onClick="quit"
+        android:text="QUIT"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text=": : ---------*-------- : :"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse" />
+
+
+
+</LinearLayout>
