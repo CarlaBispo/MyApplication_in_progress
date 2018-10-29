@@ -61,15 +61,15 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse" />
 
     <Button
+        android:id="@+id/btQuit2"
         style="@android:style/Widget.Holo.Button"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:fontFamily="casual"
-        android:text="MENU"
-        android:onClick="quit2"
-        android:id="@+id/btQuit2"
         android:layout_marginTop="5dp"
+        android:fontFamily="casual"
+        android:onClick="quit2"
+        android:text="MENU"
         android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse" />
 
     <ImageView
