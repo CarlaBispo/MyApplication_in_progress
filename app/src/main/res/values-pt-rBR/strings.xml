@@ -13,5 +13,7 @@
     <string name="app_venceu">Venceu</string>
     <string name="app_voltar">*** Voltar ***</string>
 
+    <string name="app_scorer">Hi-Score</string>
+
 
 </resources>

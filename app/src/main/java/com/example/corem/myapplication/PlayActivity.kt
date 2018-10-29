@@ -51,15 +51,18 @@ class PlayActivity : AppCompatActivity() {
     private fun validaVidas() {
         if (vidas == 0) {
             val intent = Intent(this, GameOverActivity::class.java)
+            intent.putExtra("Hi-Score", vitorias)
             startActivity(intent)
             finish()
         }
     }
 
-    //iniciar tecla de saida do jogo
+
+    //passar valor da pontuacao pra tela gameover
 
 
-    // fim tecla saida jogo
+
+    // fim
 
     private fun realizarJogada(jogadaPlayer: Int) {
 
