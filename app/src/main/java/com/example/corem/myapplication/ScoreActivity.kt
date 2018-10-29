@@ -50,7 +50,9 @@ class ScoreActivity : AppCompatActivity() {
     fun configureList(jogadores:List<Jogador>){
         val recyclerview = rvScoring
         recyclerview.adapter = ScoreAdapter(jogadores, this,{
-            Toast.makeText(this, "O player: " + it.nome + "tem total de" + it.pontos + "pontos.", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "Tales de Mileto de muitos pontos", Toast.LENGTH_LONG).show()
+
+            //"O player: " + it.nome + "tem" + it.pontos + "pontos."
         })
         recyclerview.layoutManager = LinearLayoutManager(this)
     }
